@@ -1,6 +1,6 @@
-package com.ks.base.dao;
+package com.ks.hiIoc1;
 
-public class UserDaoImpl implements UserDao {
+public class Hello {
     private String name;
 
     public String getName() {
@@ -10,8 +10,9 @@ public class UserDaoImpl implements UserDao {
     public void setName(String name) {
         this.name = name;
     }
-
-    public void getUser() {
-        System.out.println("get user info2..." + name);
+    public void show(){
+        System.out.println("show" + name);
     }
+
+
 }

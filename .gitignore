@@ -3,7 +3,6 @@
 # dependencies
 .DS_Store
 node_modules
-test
 
 # production
 /dist
@@ -32,4 +31,4 @@ test/screenshots/*
 
 .vscode
 *.class
-.idea/*
+

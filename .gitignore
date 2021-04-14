@@ -32,4 +32,4 @@ test/screenshots/*
 .vscode
 *.class
 
-.idea/workspace.xml
+.idea/*

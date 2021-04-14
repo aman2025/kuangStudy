@@ -11,6 +11,7 @@
 
     <modules>
         <module>study-01</module>
+        <module>study-02-proxy</module>
     </modules>
     <dependencies>
         <dependency>

@@ -12,6 +12,8 @@
     <modules>
         <module>study-01</module>
         <module>study-02-proxy</module>
+        <module>study-03-annotation</module>
+        <module>study-05-autowired</module>
     </modules>
     <dependencies>
         <dependency>

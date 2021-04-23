@@ -8,7 +8,7 @@ public class User {
     private Cat cat;
     @Autowired
     private Dog dog;
-    @Value("ks5")
+    @Value("ks511")
     private String name;
 
     public Cat getCat() {

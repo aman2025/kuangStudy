@@ -25,10 +25,10 @@ public class UserController {
         return "hello";
     }
 
-    // 前端请求参数是一个i对象  localhost:8080/user/t1?id=1&name=xxx&age=3
+    // 前端请求参数是一个i对象  localhost:8080/user/t3?id=1&name=xxx&age=3
     @RequestMapping("/t3")
     public String test3(User user, Model model){
-        System.out.println(user);
+        System.out.println(user);  // 相当用前端参数构造一个实例 User user = new User(1, "xxx", 3);
         model.addAttribute("msg", user);
         return "hello";
     }

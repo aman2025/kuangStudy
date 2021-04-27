@@ -21,7 +21,7 @@ public class LoginController {
         return "login";
     }
 
-    // login
+    // login, post 提交用户名密码
     @RequestMapping("/login")
     public String login(HttpSession session, String username, String password, Model model){
         //把用户的信息存在session中

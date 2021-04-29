@@ -1,0 +1,12 @@
+person:
+  name: qj
+  age: 3
+  happy: true
+  birth: 2021/11/01
+  maps: {k1: v1, k2: v2}
+  lists:
+    - code
+    - girl
+  dog:
+    name: wangcai11
+    age: 3

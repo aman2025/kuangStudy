@@ -3,14 +3,18 @@ package com.ks.pojo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
+
 
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 @Component
+@Validated
 @ConfigurationProperties(prefix = "person")
 public class Person {
+
     private String name;
     private int age;
     private boolean happy;

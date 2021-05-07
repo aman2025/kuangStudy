@@ -8,8 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class ConfigApplicationTests {
-//    @Autowired
-//    Person person;
+    @Autowired
+    Person person;
 
     @Autowired
     Dog dog;
@@ -18,7 +18,7 @@ class ConfigApplicationTests {
 
     @Test
     public void contextLoads() {
-        System.out.println(dog.getName());
+        System.out.println(person);
 
     }
 

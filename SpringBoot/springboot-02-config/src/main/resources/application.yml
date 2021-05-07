@@ -10,3 +10,7 @@ person:
   dog:
     name: wangcai11
     age: 3
+spring:
+  mvc:
+    format:
+      date: dd/MM/yyyy

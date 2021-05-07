@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component //注册bean
 public class Dog {
 
-    @Value("${name}")
+    @Value("${name}") // application.yml的配置优先
     private String name;
 
     @Value("${age}")

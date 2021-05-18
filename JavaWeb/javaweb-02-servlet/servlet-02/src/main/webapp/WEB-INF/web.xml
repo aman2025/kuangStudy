@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="true">
+<context-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:mysql://localhost:3306</param-value>
+</context-param>
+ <servlet>
+     <servlet-name>hello</servlet-name>
+     <servlet-class>com.ks.servlet.HelloServlet</servlet-class>
+ </servlet>
+<servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>sd3</servlet-name>
+        <servlet-class>com.ks.servlet.ServletDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sd3</servlet-name>
+        <url-pattern>/sd3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>sd4</servlet-name>
+    <servlet-class>com.ks.servlet.ServletDemo04</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>sd4</servlet-name>
+        <url-pattern>/sd4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ps</servlet-name>
+        <servlet-class>com.ks.servlet.PropertiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ps</servlet-name>
+        <url-pattern>/ps</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>red</servlet-name>
+        <servlet-class>com.ks.servlet.RedirectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>red</servlet-name>
+        <url-pattern>/red</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>lg</servlet-name>
+        <servlet-class>com.ks.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lg</servlet-name>
+        <url-pattern>/lg</url-pattern>
+    </servlet-mapping>
+</web-app>

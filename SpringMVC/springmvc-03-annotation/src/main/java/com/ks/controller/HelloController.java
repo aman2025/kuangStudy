@@ -9,6 +9,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(Model model){
+        System.out.println("dd");
         // 封装数据
         model.addAttribute("msg", "hello,annotations2");
         return "hello";  // 视图名称hello

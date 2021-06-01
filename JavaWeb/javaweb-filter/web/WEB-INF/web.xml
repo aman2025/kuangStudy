@@ -26,4 +26,11 @@
         <!--只过滤/servlet/下的所有请求-->
         <url-pattern>/servlet/*</url-pattern>
     </filter-mapping>
+    <listener>
+        <listener-class>com.ks.listener.OnlineCounterListener</listener-class>
+    </listener>
+    <!--session销毁-->
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
 </web-app>

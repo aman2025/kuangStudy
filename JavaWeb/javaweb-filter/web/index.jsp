@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  当前人数:
+  <%=this.getServletConfig().getServletContext().getAttribute("onlineCounter")%>
   </body>
 </html>

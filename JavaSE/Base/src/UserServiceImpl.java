@@ -1,5 +1,10 @@
 public class UserServiceImpl implements UserService,TimerService {
     @Override
+    public void time() {
+
+    }
+
+    @Override
     public void add(String name) {
 
     }
@@ -16,11 +21,6 @@ public class UserServiceImpl implements UserService,TimerService {
 
     @Override
     public void query(String name) {
-
-    }
-
-    @Override
-    public void time() {
 
     }
 }

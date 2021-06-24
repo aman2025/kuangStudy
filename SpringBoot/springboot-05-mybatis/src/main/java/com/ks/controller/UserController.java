@@ -18,6 +18,7 @@ public class UserController {
     public String hi(){
         return "hi";
     }
+
     @GetMapping("/userList")
     public List<User> queryUserList(){
         List<User> userList = userMapper.queryUserList();

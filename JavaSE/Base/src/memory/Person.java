@@ -14,6 +14,14 @@ public class Person {
 
     public void check(){
         System.out.println(pet.name);
+    }
 
+    private int age;
+    public void setAge(int age){
+        if(age > 200 || age < 0){
+            System.out.println("参数不合法！");
+        }else{
+            this.age = age;
+        }
     }
 }

@@ -9,7 +9,7 @@ public class ProviderController {
     @Value("providerName")
     private String name;
 
-    @GetMapping("send")
+    @GetMapping("/send")
     public String send(){
         return name;
     }

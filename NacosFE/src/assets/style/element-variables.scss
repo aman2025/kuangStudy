@@ -1,0 +1,124 @@
+/* 改变主题色变量， 使用在线主题编辑器，修改所有样式*/
+$--color-primary: #3B89FF;
+
+.dfa-main-container{
+    padding: 10px 20px 20px !important;
+}
+.dfa-title{
+    font-size: 15px;
+    line-height: 20px;
+    border-left: 3px solid #3B89FF;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.dfa-sub-title{
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #d9d9d9;
+}
+body,td,th{
+    color: #333 !important;
+    font-size: 13px !important;
+}
+// 颜色
+.dfa-c-gray{
+    color: #999;
+}
+.dfa-c-primary{
+    color: $--color-primary;
+}
+.dfa-c-success{
+    color: #67c33a;
+}
+.dfa-c-error{
+    color: #F56C6C;
+}
+// 按钮
+.el-button--primary.is-disabled{
+    background-color: #D9D9D9 !important;
+    border-color: #D9D9D9 !important;
+}
+// 表格样式共用
+.dfa-table-header-cell {
+    background-color: #eff0f3 !important;
+    border-color: #d9d9d9 !important;
+    padding: 5px 0 !important;
+    color: #333 !important;
+}
+.dfa-table {
+    border-color: #d9d9d9 !important;
+}
+.dfa-table td {
+    border-color: #d9d9d9 !important;
+    padding: 1px 0 !important;
+}
+// 表格边框-底部线和右侧线
+.dfa-table::after,
+.dfa-table::before {
+    background-color: #d9d9d9 !important;
+}
+.dfa-table-operate-cell-a {
+    margin-right: 10px;
+}
+
+// 自定义对齐和间距
+.dfa-blank-20 {
+    height: 20px;
+}
+.dfa-align-r {
+    text-align: right;
+}
+.dfa-align-l {
+    text-align: left;
+}
+
+// 弹出框dialog
+
+.dfa-dialog .el-dialog{
+    border-radius: 5px !important;
+}
+
+.dfa-dialog .el-dialog__header{
+    text-align: left !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.dfa-dialog .el-dialog__header .el-dialog__title{
+    font-size: 14px !important;
+}
+.dfa-dialog .el-dialog__header .el-dialog__headerbtn{
+    top:10px;
+    right:10px;
+    font-size: 14px !important;
+}
+.dfa-dialog .el-dialog__body{
+    padding-right: 28px !important;
+}
+.dfa-dialog .el-dialog__footer{
+    background-color: #F5F5F5;
+    padding-top:9px ;
+    padding-bottom: 9px ;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.el-message{
+    z-index: 99999 !important; // 高于model遮罩层
+}
+.el-pagination{
+    text-align: right;
+    padding: 10px 0 !important;
+    font-weight: normal !important;
+}
+.el-pagination.is-background .btn-next{
+    margin-right: 0 !important;
+}
+.el-link{
+    font-size: 12px !important;
+    vertical-align: baseline !important;
+}
+/* 改变 icon 字体路径变量，以下必需引入 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";

@@ -22,6 +22,7 @@
             <version>5.2.0.RELEASE</version>
         </dependency>
     </dependencies>
+<!--    test git on mac -->
 
 
 </project>
